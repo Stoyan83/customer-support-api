@@ -24,6 +24,13 @@ RSpec.describe SessionsController, type: :controller do
         parsed_response = JSON.parse(response.body)
         expect(parsed_response['data']).to include('Authorization' => a_string_starting_with('Bearer'))
       end
+
+      it 'returns the same token in both the body and the header' do
+        header_token = response.headers['Authorization']
+        parsed_response = JSON.parse(response.body)
+        body_token = parsed_response['data']['Authorization']
+        expect(header_token).to eq(body_token)
+      end
     end
 
     context 'with invalid credentials' do
