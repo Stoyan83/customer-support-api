@@ -8,5 +8,5 @@ class User < ActiveRecord::Base
 
   include DeviseTokenAuth::Concerns::User
 
-  validates :name, presence: true
+  validates :name, presence: true, on: :create
 end

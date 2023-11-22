@@ -4,4 +4,9 @@ Rails.application.routes.draw do
     registrations: 'devise_token/registrations'
   }
 
+  namespace :api do
+    namespace :v1 do
+      resources :tickets, only: [:index]
+    end
+  end
 end
