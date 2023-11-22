@@ -3,15 +3,6 @@ class Api::V1::TicketsController < ApplicationController
 
   def index
     @tickets = Ticket.all
-
-    render json: {
-      tickets: @tickets.map do |ticket|
-        {
-          id: ticket.id,
-          title: ticket.name,
-          description: ticket.description
-        }
-      end
-    }
+    render json: @tickets, each_serializer: TicketSerializer
   end
 end
