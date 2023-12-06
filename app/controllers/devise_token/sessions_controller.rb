@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module DeviseToken
   class SessionsController < DeviseTokenAuth::SessionsController
     before_action :set_request_start

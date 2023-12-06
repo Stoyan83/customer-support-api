@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DeviseToken::RegistrationsController < DeviseTokenAuth::RegistrationsController
   def render_create_error
     render json: {

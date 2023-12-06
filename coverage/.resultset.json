@@ -19,18 +19,24 @@
       },
       "/home/stoyan/customer-support-api/app/helpers/api/v1/tickets_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/home/stoyan/customer-support-api/app/helpers/application_helper.rb": {
         "lines": [
+          null,
+          null,
           1,
           null
         ]
       },
       "/home/stoyan/customer-support-api/app/controllers/devise_token/sessions_controller.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -65,6 +71,8 @@
       },
       "/home/stoyan/customer-support-api/app/controllers/application_controller.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           null,
@@ -81,6 +89,8 @@
       },
       "/home/stoyan/customer-support-api/app/channels/application_cable/channel.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0,
@@ -91,6 +101,8 @@
       },
       "/home/stoyan/customer-support-api/app/channels/application_cable/connection.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0,
@@ -101,6 +113,8 @@
       },
       "/home/stoyan/customer-support-api/app/controllers/api/v1/tickets_controller.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           null,
@@ -115,6 +129,8 @@
       },
       "/home/stoyan/customer-support-api/app/controllers/devise_token/registrations_controller.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0,
@@ -128,6 +144,8 @@
       },
       "/home/stoyan/customer-support-api/app/jobs/application_job.rb": {
         "lines": [
+          null,
+          null,
           0,
           null,
           null,
@@ -141,6 +159,8 @@
       },
       "/home/stoyan/customer-support-api/app/mailers/application_mailer.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0,
@@ -151,6 +171,8 @@
       },
       "/home/stoyan/customer-support-api/app/models/application_record.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0
@@ -160,6 +182,8 @@
       },
       "/home/stoyan/customer-support-api/app/models/ticket.rb": {
         "lines": [
+          null,
+          null,
           0,
           0
         ],
@@ -168,6 +192,8 @@
       },
       "/home/stoyan/customer-support-api/app/serializers/ticket_serializer.rb": {
         "lines": [
+          null,
+          null,
           0,
           0,
           0
@@ -176,6 +202,6 @@
         }
       }
     },
-    "timestamp": 1701857038
+    "timestamp": 1701858227
   }
 }
