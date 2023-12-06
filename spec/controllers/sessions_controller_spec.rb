@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe SessionsController, type: :controller do
+RSpec.describe DeviseToken::SessionsController, type: :controller do
   before { @request.env['devise.mapping'] = Devise.mappings[:user] }
 
   let(:user) { create(:user) }
